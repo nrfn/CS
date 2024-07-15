@@ -31,5 +31,13 @@ class Program
       foreach (string word in words){
           Console.WriteLine(word);
       }
+
+      // N個のデータの入力
+      var line = Console.ReadLine();
+      var input_words = Console.ReadLine();
+      string[] words = input_words.Split(' ');
+      foreach (string word in words){
+        Console.WriteLine(word);
+      }
     }
 }
